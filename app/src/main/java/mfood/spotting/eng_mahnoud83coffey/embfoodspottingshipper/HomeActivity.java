@@ -31,13 +31,9 @@ public class HomeActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
-
     private FirebaseDatabase database;
     private DatabaseReference shipperorders;
-
     private FirebaseRecyclerAdapter<Request,HomeViewHolder> adapter;
-
-
 
 
     @Override
@@ -49,11 +45,9 @@ public class HomeActivity extends AppCompatActivity {
 
              //-----------------ID----------------------//
              recyclerView=(RecyclerView)findViewById(R.id.recyclerview_homeActivity);
-
              layoutManager=new LinearLayoutManager(this);
              recyclerView.setLayoutManager(layoutManager);
              recyclerView.setHasFixedSize(true);
-
 
 
             //Init   Firebase
@@ -63,9 +57,7 @@ public class HomeActivity extends AppCompatActivity {
               //Storage your Token app to FirebaseDatabse
              updateTokenShipper(FirebaseInstanceId.getInstance().getToken());
 
-
             loadAllOrderNeededShip(Common.currentShipper.getPhone());
-
 
     }
 
