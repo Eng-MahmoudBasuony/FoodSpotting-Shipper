@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/appcolor</item>
+        <item name="colorPrimaryDark">@color/appcolor</item>
+        <item name="colorAccent">@color/appcolor</item>
+    </style>
+
+
+
+    <style name="TextStyleEditext" parent="TextAppearance.AppCompat">
+
+        <!--Hint Color Lable Editext -->
+        <item name="android:textColorHint">@color/appcolor</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/appcolor</item>
+        <item name="colorControlNormal">#f9fffe</item>
+        <item name="colorControlActivated">@color/appcolor</item>
+        <item name="android:textColorHighlight">#679</item>
+        <item name="android:textColorLink">#9E9E9E</item>
+
+
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "1067186830912",
+    "firebase_url": "https://emb-eat-it.firebaseio.com",
+    "project_id": "emb-eat-it",
+    "storage_bucket": "emb-eat-it.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067186830912:android:4c61f7b31bfe59ba",
+        "android_client_info": {
+          "package_name": "com.example.eng_mahnoud83coffey.embeatit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067186830912-l3kgmolj7tgvorfgj4e04304ts3k5ou5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eng_mahnoud83coffey.embeatit",
+            "certificate_hash": "7f7c63e165a10466ca246cad6f9424aa8d06871d"
+          }
+        },
+        {
+          "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTJuV6o3Zxcfd5rR-mLgwrnw_hqZnaWrY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067186830912:android:874d4447240b3a44",
+        "android_client_info": {
+          "package_name": "food.spotting.eng_mahnoud83coffey.embeatitserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067186830912-ee202ac027u6d6djt1qhkhgdpkeb1o5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "food.spotting.eng_mahnoud83coffey.embeatitserver",
+            "certificate_hash": "0952af75de095d99e0dfd9246504271ee76058c6"
+          }
+        },
+        {
+          "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTJuV6o3Zxcfd5rR-mLgwrnw_hqZnaWrY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067186830912:android:bcfb24fe4113ca00",
+        "android_client_info": {
+          "package_name": "mfood.spotting.eng_mahnoud83coffey.embfoodspottingshipper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067186830912-92lrgpa96volr8esqv04sa4fed3t975g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mfood.spotting.eng_mahnoud83coffey.embfoodspottingshipper",
+            "certificate_hash": "0952af75de095d99e0dfd9246504271ee76058c6"
+          }
+        },
+        {
+          "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTJuV6o3Zxcfd5rR-mLgwrnw_hqZnaWrY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

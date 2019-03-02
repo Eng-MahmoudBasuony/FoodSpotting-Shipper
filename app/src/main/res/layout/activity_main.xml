@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/basuony3"
+    android:fillViewport="true"
+    android:layoutDirection="locale"
+    tools:context="mfood.spotting.eng_mahnoud83coffey.embfoodspottingshipper.MainActivity" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="280dp"
+            android:src="@drawable/my_logo"
+           android:scaleType="fitXY"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:theme="@style/TextStyleEditext"
+
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/Phone_Number_SignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Phone_Number"
+                android:inputType="phone"
+                android:paddingBottom="20dp"
+
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextStyleEditext"
+            app:passwordToggleEnabled="true"
+
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/Password_SignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Password"
+                android:inputType="textPassword"
+                android:paddingBottom="20dp"
+
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/Button_SignIn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/around_button"
+            android:text="@string/Sign_In"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

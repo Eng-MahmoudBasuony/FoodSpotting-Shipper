@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EMB Food Spotting Shipper</string>
+    <string name="Sign_In">Login</string>
+    <string name="Phone_Number">Phone</string>
+    <string name="Password">Password</string>
+    <string name="title_activity_traking_order">Map</string>
+    <string name="google_directions_key">AIzaSyD9TQRCR4M5q_ZCNPlOnt1TEBOXT743yQo</string>
+    <string name="Server_key">AAAA-HlKvkA:APA91bEsFXhUgBXkKfwHMUQaSx6SVBP6Cqil98MUxE2LgKjG9J27Q9rGnybQ7mee23GlSIy3EbEaleQK0Y52PtT9D92b_O6c5TkgeL05CE_9hJ24dXNTiMJYsfP-KgtnoSUobVtacTSy</string>
+
+</resources>
