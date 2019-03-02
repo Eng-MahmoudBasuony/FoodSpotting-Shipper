@@ -90,8 +90,6 @@ public class HomeActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view)
                     {
-
-
                             Common.currentRequest = model;
                             Common.currentKey = adapter.getRef(position).getKey();
 
@@ -105,9 +103,6 @@ public class HomeActivity extends AppCompatActivity {
 
 
                 });
-
-
-
 
             }
 
